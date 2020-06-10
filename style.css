@@ -1,15 +1,44 @@
 body{
+ background-color: #d62839;
+ 
+ 
+}
 
+h1 {
+  color: #e5e7e6;
   text-align: center;
-  background-color: #ed2e38;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  
+
 }
 
-h1{
-  color: white;
+.searchResults1 {
+  border: 4px outset rgba(164,30,12,0.5);
+  box-shadow: 2px 2px 7px 1px #1C6EA4;
+  background-color: white;
+  
 }
 
-p{
-text-decoration: underline;
+.searchResults2 {
+  border: 4px inset rgba(164,30,12,0.5);
+  box-shadow: 2px 2px 7px 1px #1C6EA4;
+  background-color: white;
 }
 
+.searchResults3 {
+  border: 4px inset rgba(164,30,12,0.5);
+  box-shadow: 2px 2px 7px 1px #1C6EA4;
+  background-color: white;
+}
+
+p {
+  text-decoration: underline;
+  font-size: large;
+}
+
+.toptxt {
+  text-align: center;
+}
+
+.searchNButton {
+  text-align: center;
+}

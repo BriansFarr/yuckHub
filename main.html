@@ -9,28 +9,56 @@
 
   <title>yuckHub</title>
 </head>
+<body>
 <h1>yuckHub!</h1>
+<div class ="toptxt">
 <p>Search by restaurant name.</p>
-<div>
-<input type ="text" id = 'searchInput' placeholder="search...">
 </div>
-<div>
+
+<div class = "searchNButton">
+<input type ="text" id = 'searchInput' placeholder="search...">
   <button id ="searchBtn">Enter</button>
 </div>
-<p>Name:</p>
-<div id = "Name"></div>
-<p>Address:</p>
-<div id = "address"></div>
-<p>Cuisine:</p>
-<div id = "cuisine"></div>
-<p>Rating:</p>
-<div id = "rating"></div>
-<p>Violations:</p>
-<ul>
-<li id = "violations"></li>
-<li id = "violations1"></li>
-<li id = "violations2"></li>
-</ul>
+
+<div class = "searchResults1">
+  <p>Name:</p>
+  <div id = "Name"></div>
+
+  <p>Address:</p>
+  <div id = "address"></div>
+  
+  <p>Cuisine:</p>
+  <div id = "cuisine"></div>
+  
+
+</div>
+ 
+
+<div class = "searchResults2">  
+ <p>Rating:</p>
+    <div id = "rating"></div>
+    
+ <p>Score:</p>
+    <div id = "score"></div>
+    
+</div>
+
+
+<div class ="searchResults3">
+<p>Recent Violations:</p>
+  <ul>
+    <li id = "violations"></li>
+
+    </ul>
+
+
+</div>
+
+
+<footer>
+  <p1>This site was made using NYCOpenData.</p1>
+</footer>
+
 
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
 </body>
