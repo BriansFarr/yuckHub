@@ -1,11 +1,26 @@
 async function getData() {
-  const response = await fetch(`https://data.cityofnewyork.us/resource/43nn-pn8j.json?dba=IVY`);
+  console.log("are we here")
+  let place = document.getElementById("searchInput").value.toUpperCase();
+  console.log(place)
+  const response = await fetch(`https://data.cityofnewyork.us/resource/43nn-pn8j.json?dba=` + place);
   const data = await response.json();
+  // now push first object in the array of data into an empty object then return that variable
+  //console.log(data, data[0].dba);
+  let result = []
   
-  console.log(data);
+  console.log(result);
 }
 
-getData();
+
+
+document.getElementById("searchBtn").addEventListener('click', event => {
+  getData();
+});
+
+
+
+
+// getData()
 
 let mainContainer = document.getElementById("data");
 
