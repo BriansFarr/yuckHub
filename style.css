@@ -8,3 +8,14 @@ h1{
   color: white;
 
 }
+
+p{
+  text-decoration: underline;
+  font-size: larger;
+}
+
+.name{
+
+  font-size: larger;
+
+}
