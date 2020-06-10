@@ -67,10 +67,10 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|June 8| Project Prompt | Incomplete
-|June 9| Wireframes / Priority Matrix / Timeframes | Incomplete
-|June 10| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|June 11| Initial Clickable Model  | Incomplete
+|June 8| Project Prompt | Complete
+|June 9| Wireframes / Priority Matrix / Timeframes | Complete
+|June 10| Core Application Structure (HTML, CSS, etc.) | Complete
+|June 11| Initial Clickable Model  | Complete
 |June 12| MVP | Incomplete
 |June 15| Present | Incomplete
 
@@ -83,10 +83,10 @@ Include a full list of features that have been prioritized based on the `Time an
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| creating html css | M | 4 hrs| hrs | hrs |
-| connecting the api | H | 8 hrs| hrs | hrs |
-| creating event listeners | 8 H | hrs| hrs | hrs |
-| Working with API | H | 12 hrs| hrs | hrs |
+| creating html css | M | 4 hrs| 2 hrs | hrs |
+| connecting the api | H | 8 hrs| 10 hrs | hrs |
+| creating event listeners |  H | 8 hrs| 1 hrs | hrs |
+| Working with API | H | 12 hrs| 4 hrs | hrs |
 | Connect second api | H | 8 hrs| hrs | hrs |
 | return locations in maps  |  H | 4 hrs| hrs | hrs |
 | Total | H | 44 hrs| hrs | hrs |

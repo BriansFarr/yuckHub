@@ -13,9 +13,14 @@ async function getData() {
 
   const violations = document.getElementById("violations");
   violations.innerHTML = data[0].violation_description;
+  violations1.innerHTML = data[1].violation_description;
+  violations2.innerHTML = data[2].violation_description;
   
   const address = document.getElementById("address");
-  address.innerHTML = data[0].building  +  data[0].street +  data[0].zipcode;
+  address.innerHTML = [data[0].building +" "+ data[0].street + " "+ data[0].boro];
+  
+  const cuisine = document.getElementById("cuisine");
+  cuisine.innerHTML = data[0].CUISINE_DESCRIPTION
     
   }
  
