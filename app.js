@@ -1,5 +1,4 @@
 async function getData() {
-  //console.log("am i here")
   //sanitize search input
   let place = document.getElementById("searchInput").value.toUpperCase();
   //console.log(place)
@@ -7,9 +6,9 @@ async function getData() {
   
   const response = await fetch(`https://data.cityofnewyork.us/resource/43nn-pn8j.json?dba=` + place);
   const data = await response.json();
-  
+
   //push restaurant name from object and set under Name p
-  const restName = document.getElementById("Name");
+  /*const restName = document.getElementById("Name");
   restName.innerHTML = data[0].dba;
 
   const foodGrade = document.getElementById("rating");
@@ -27,19 +26,25 @@ async function getData() {
   const restScore = document.getElementById("score");
   restScore.innerHTML = data[0].score;
     
+
+ for (let i = 0; i < data.length; i++){
+   console.log(data[i]);
+ }
+*/
+
+  //data.forEach(function (data) {
+    
+//});
+  
   }
  
 
- 
+
+
 ///set event listener to button to listen to onclick and trigger getData function
 document.getElementById("searchBtn").addEventListener('click', event => {
   getData();
 });
-
-
-
-
-
 
 
 
