@@ -8,7 +8,7 @@ async function getData() {
   const data = await response.json();
 
   //push restaurant name from object and set under Name p
-  /*const restName = document.getElementById("Name");
+  const restName = document.getElementById("Name");
   restName.innerHTML = data[0].dba;
 
   const foodGrade = document.getElementById("rating");
@@ -16,9 +16,10 @@ async function getData() {
 
   const violations = document.getElementById("violations");
   violations.innerHTML = data[0].violation_description;
-  
+  violations.innerHTML = data[1].violation_description;
+  violations.innerHTML = data[2].violation_description;
   const address = document.getElementById("address");
-  address.innerHTML = [data[0].building +" "+ data[0].street + " "+ data[0].boro + " "+ data[0].zipcode];
+  address.innerHTML = [data[0].building +" "+ data[0].street + ", "+ data[0].boro + ", "+ data[0].zipcode];
   
   const cuisine = document.getElementById("cuisine");
   cuisine.innerHTML = data[0].cuisine_description;
@@ -27,14 +28,7 @@ async function getData() {
   restScore.innerHTML = data[0].score;
     
 
- for (let i = 0; i < data.length; i++){
-   console.log(data[i]);
- }
-*/
-
-  //data.forEach(function (data) {
-    
-//});
+  
   
   }
  

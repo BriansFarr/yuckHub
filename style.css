@@ -1,57 +1,89 @@
 body{
  background-color: #d62839;
- 
+ display: flex;
+ flex-direction: column;
+ max-height: auto;
+ max-width: auto;
+ background: #121414 url("https://images.unsplash.com/photo-1570722288327-f999815374bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80") no-repeat scroll 50% 0%;
 }
 
 h1 {
-  color: #e5e7e6;
-  text-align: center;
   
+  text-align: center;
+  color: rgb(216, 12, 12);
 
 }
 
 .searchResults1 {
-  border: 4px outset rgba(164,30,12,0.5);
-  box-shadow: 2px 2px 7px 1px #1C6EA4;
+  border: 4px hidden;
+  box-shadow: 2px 2px 7px 1px #1e262b;
   background-color: white;
   padding-left: 01%;
   padding-bottom: 3%;
-  
+  width: 40%;
+  text-align: center;
+  align-self: center;
+  align-self: ;
+  border-radius: 25px;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
   
   
 }
 
 .searchResults2 {
-  border: 4px inset rgba(164,30,12,0.5);
-  box-shadow: 2px 2px 7px 1px #1C6EA4;
+  border: 4px hidden;
+  box-shadow: 2px 2px 7px 1px #0f1214;
   background-color: white;
   padding-left: 01%;
   padding-bottom: 3%;
+  width: 40%;
+  align-self: center;
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+  width: 65px;
+  
+
 }
 
 .searchResults3 {
-  border: 4px inset rgba(164,30,12,0.5);
-  box-shadow: 2px 2px 7px 1px #1C6EA4;
+  border: 4px hidden;
+  box-shadow: 2px 2px 7px 1px #13191d;
   background-color: white;
   padding-left: 01%;
   padding-bottom: 1%;
+  border-radius: 25px;
+  padding: 20px;
+  width: 700px;
+align-self: center;
+  height: 150px;
+  text-align: center;
+
 }
 
-p {
+p1{
   text-decoration: underline;
   font-size: large;
+  
 }
 
 .toptxt {
   text-align: center;
+  padding-bottom: 3%;
+  font-size: medium;
+  font-weight: 200;
 }
 
 .searchNButton {
   text-align: center;
+  padding-bottom: 3%;
+  
 }
 footer {
- padding-top: 100%;
+padding-top: 1%;
+text-align: center;
 }
 
 
-#mapid { height: 180px; }
