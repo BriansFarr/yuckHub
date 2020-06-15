@@ -15,9 +15,10 @@ async function getData() {
   foodGrade.innerHTML = data[0].grade;
 
   const violations = document.getElementById("violations");
-  violations.innerHTML = data[0].violation_description;
-  violations.innerHTML = data[1].violation_description;
-  violations.innerHTML = data[2].violation_description;
+  violations.innerHTML = [data[0].violation_description];
+  violations1.innerHTML = [data[1].violation_description];
+  violations2.innerHTML = [data[2].violation_description];
+
   const address = document.getElementById("address");
   address.innerHTML = [data[0].building +" "+ data[0].street + ", "+ data[0].boro + ", "+ data[0].zipcode];
   
@@ -27,7 +28,7 @@ async function getData() {
   const restScore = document.getElementById("score");
   restScore.innerHTML = data[0].score;
     
-
+  
   
   
   }
