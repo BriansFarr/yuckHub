@@ -71,8 +71,8 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 |June 9| Wireframes / Priority Matrix / Timeframes | Complete
 |June 10| Core Application Structure (HTML, CSS, etc.) | Complete
 |June 11| Initial Clickable Model  | Complete
-|June 12| MVP | Incomplete
-|June 15| Present | Incomplete
+|June 12| MVP | complete
+|June 15| Present | Complete
 
 ## Priority Matrix
 
@@ -83,15 +83,16 @@ Include a full list of features that have been prioritized based on the `Time an
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| creating html css | M | 4 hrs| 2 hrs | hrs |
-| connecting the api | H | 8 hrs| 10 hrs | hrs |
-| creating event listeners |  H | 8 hrs| 1 hrs | hrs |
-| Working with API | H | 12 hrs| 4 hrs | hrs |
-| Connect second api | H | 8 hrs| hrs | hrs |
-| return locations in maps  |  H | 4 hrs| hrs | hrs |
+| creating html css | M | 4 hrs| 2 hrs | 10hrs |
+| connecting the api | H | 8 hrs| 10 hrs | 8hrs |
+| creating event listeners |  H | 8 hrs| 1 hrs | 1hrs |
+| Working with API | H | 12 hrs| 4 hrs | 10hrs |
+| Connect second api | H | 8 hrs| 10 hrs |10 hrs |
+| return locations in maps  | L | 4 hrs| 8 hrs | 8hrs |
 | Total | H | 44 hrs| hrs | hrs |
 
 ## Code Snippet
 
 
 ## Change Log
+I did not end up adding the google maps API. 
