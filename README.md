@@ -72,7 +72,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 |June 10| Core Application Structure (HTML, CSS, etc.) | Complete
 |June 11| Initial Clickable Model  | Complete
 |June 12| MVP | Incomplete
-|June 15| Present | Incomplete
+|June 15| Present | Complete
 
 ## Priority Matrix
 
@@ -87,8 +87,8 @@ Include a full list of features that have been prioritized based on the `Time an
 | connecting the api | H | 8 hrs| 10 hrs | hrs |
 | creating event listeners |  H | 8 hrs| 1 hrs | hrs |
 | Working with API | H | 12 hrs| 4 hrs | hrs |
-| Connect second api | H | 8 hrs| hrs | hrs |
-| return locations in maps  |  H | 4 hrs| hrs | hrs |
+| Connect second api | H | 8 hrs| 10hrs | hrs |
+| return locations in maps  |  H | 4 hrs| 4hrs | hrs |
 | Total | H | 44 hrs| hrs | hrs |
 
 ## Code Snippet
