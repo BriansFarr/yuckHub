@@ -2,12 +2,13 @@ async function getData() {
   //sanitize search input
   let place = document.getElementById("searchInput").value.toUpperCase();
   //console.log(place)
+
+
   // fetch data and append input to endpoint
-  
   const response = await fetch(`https://data.cityofnewyork.us/resource/43nn-pn8j.json?dba=` + place);
   const data = await response.json();
 
-  //push restaurant name from object and set under Name p
+  //push restaurant name from object and set under Name <p>
   const restName = document.getElementById("Name");
   restName.innerHTML = data[0].dba;
 
